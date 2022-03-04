@@ -1,0 +1,48 @@
+{"app_name":"Xcode Previews","timestamp":"2022-03-04 06:26:50.00 -0500","app_version":"1.0","slice_uuid":"4bb023f9-2939-3b54-aecf-a073efc0196b","adam_id":0,"build_version":"17522.500","platform":0,"bundleID":"com.apple.dt.XcodePreviews","share_with_app_devs":0,"is_first_party":1,"bug_type":"109","os_version":"iPhone OS 14.4.2 (18D70)","incident_id":"46A0E99D-6306-40DC-9C0D-684E2A385FBD","name":"Xcode Previews"}
+Incident Identifier: 46A0E99D-6306-40DC-9C0D-684E2A385FBD
+CrashReporter Key:   7e87c0c99fb5518bd9b5e6f33f718e11d64f9449
+Hardware Model:      iPhone11,8
+Process:             Xcode Previews [262]
+Path:                /Applications/Xcode Previews.app/Xcode Previews
+Identifier:          com.apple.dt.XcodePreviews
+Version:             17522.500 (1.0)
+Code Type:           ARM-64 (Native)
+Role:                Foreground
+Parent Process:      launchd [1]
+Coalition:           com.apple.dt.XcodePreviews [401]
+
+
+Date/Time:           2022-03-04 06:26:49.9498 -0500
+Launch Time:         2022-03-04 06:26:49.9405 -0500
+OS Version:          iPhone OS 14.4.2 (18D70)
+Release Type:        User
+Baseband Version:    3.02.02
+Report Version:      104
+
+Exception Type:  EXC_CRASH (SIGABRT)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Description: DYLD, dyld: Using shared cache: 14717012-2E84-3416-8150-5E937791EE50 | dependent dylib '@rpath/XCPreviewKit.framework/XCPreviewKit' not found for '/Applications/Xcode Previews.app/Xcode Previews', tried but didn't find: '/System/Library/PrivateFrameworks/XCPreviewKit.framework/XCPreviewKit' '/Developer/Library/PrivateFrameworks/XCPreviewKit.framework/XCPreviewKit' '/Applications/Xcode Previews.app/Frameworks/XCPreviewKit.framework/XCPreviewKit' '@rpath/XCPreviewKit.framework/XCPreviewKit' '/System/Library/Frameworks/XCPreviewKit.framework/XCPreviewKit'
+Highlighted by Thread:  0
+
+Backtrace not available
+
+Unknown thread crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000006   x1: 0x0000000000000001   x2: 0x000000016f6ee060   x3: 0x000000000000006f
+    x4: 0x000000016f6edc60   x5: 0x0000000000000000   x6: 0x0073776569766572   x7: 0x0000000000000000
+    x8: 0x0000000000000020   x9: 0x0000000000000009  x10: 0x0000000000000001  x11: 0x0000000000000070
+   x12: 0x0000000000000012  x13: 0x000000000000002e  x14: 0x0000000000000084  x15: 0x0000000000000034
+   x16: 0x0000000000000209  x17: 0x00000001009ad7b4  x18: 0x0000000000000000  x19: 0x0000000000000000
+   x20: 0x000000016f6edc60  x21: 0x000000000000006f  x22: 0x000000016f6ee060  x23: 0x0000000000000001
+   x24: 0x0000000000000006  x25: 0x000000016f6ee928  x26: 0x00000001009d4778  x27: 0x00000001009d4000
+   x28: 0x0000000000000000   fp: 0x000000016f6edc30   lr: 0x00000001009bb6e0
+    sp: 0x000000016f6edbf0   pc: 0x00000001009b3440 cpsr: 0x00000000
+   esr: 0x00000000  Address size fault
+
+Binary images description not available
+
+Error Formulating Crash Report:
+Failed to create CSSymbolicatorRef - corpse still valid ¯\_(ツ)_/¯
+
+EOF
+
